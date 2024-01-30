@@ -1,1 +1,1 @@
-This project is a comprehensive and end-to-end classification algorithm on the customer churn data.
+This project is a comprehensive and end-to-end classification algorithm on the customer churn data. At high level, this project is suitable to do the data cleaning, data pre-processing, visualization and the model-building scenario.
