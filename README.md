@@ -15,6 +15,8 @@ In supervised learning, the machine is taught by example. The operator provides 
 
 Supervised learning, also known as supervised machine learning, is defined by its use of labeled datasets to train algorithms to classify data or predict outcomes accurately. As input data is fed into the model, the model adjusts its weights until it has been fitted appropriately. This occurs as part of the cross validation process to ensure that the model avoids overfitting or underfitting. Supervised learning helps organizations solve a variety of real-world problems at scale, such as classifying spam in a separate folder from your inbox. Some methods used in supervised learning include neural networks, naïve bayes, linear regression, logistic regression, random forest, and support vector machine (SVM).
 
+In nutshell, the supervised learning can be furthered categorized into classification and regression algorithms. Classification model identifies which category an object belongs to whereas regression model predicts a continuous output.
+
 
 
 # 2) Unsupervised machine learning: 
@@ -67,6 +69,9 @@ Choosing the right machine learning algorithm depends on several factors, includ
 
 # Now, let's talk about the classification algorithm:
 
+Classification is a natural language processing task that depends on machine learning algorithms.
+
+
 
 
 
@@ -94,3 +99,6 @@ Link2: https://www.sas.com/en_gb/insights/articles/analytics/machine-learning-al
 Link 3: https://towardsdatascience.com/top-machine-learning-algorithms-for-classification
 
 Link: https://www.quora.com/What-are-some-of-the-well-known-reinforcement-learning-algorithms
+
+Link 5: https://monkeylearn.com/blog/classification-algorithms/
+
