@@ -17,7 +17,9 @@ Supervised learning, also known as supervised machine learning, is defined by it
 
 
 
-# 2) Unsupervised machine learning: clustering algorithms (e.g., K Means Clustering Hierarchical Clustering--dendrogram), association rule algorithms (e.g. Apriori), Dimensionality reduction
+# 2) Unsupervised machine learning: 
+
+clustering algorithms (e.g., K Means Clustering, Hierarchical Clustering--dendrogram), association rule algorithms (e.g. Apriori), Dimensionality reduction
 
 Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets (subsets called clusters). These algorithms discover hidden patterns or data groupings without the need for human intervention. This method’s ability to discover similarities and differences in information make it ideal for exploratory data analysis, cross-selling strategies, customer segmentation, and image and pattern recognition. It’s also used to reduce the number of features in a model through the process of dimensionality reduction. Principal component analysis (PCA) and singular value decomposition (SVD) are two common approaches for this. Other algorithms used in unsupervised learning include neural networks, k-means clustering, and probabilistic clustering methods.
 
@@ -46,7 +48,9 @@ Please see the following atached diagram to know how the semi-supervised learnin
 ![image](https://github.com/Tiwari666/Classification_Model/assets/153152895/ad9e3a5c-9a03-45bf-85ce-d8c5671d76d3)
 
 
-# 4) Reinforcement machine learning: e.g., Q-learning (model-free algorithm), SARSA (model-free algorithm), TD learning (model-based algorithm), Monte Carlo method (model-free algorithm)
+# 4) Reinforcement machine learning: 
+
+e.g., Q-learning (model-free algorithm), SARSA (model-free algorithm), TD learning (model-based algorithm), Monte Carlo method (model-free algorithm)
 
 Reinforcement Learning (RL) is the science of decision making. It is about learning the optimal behavior in an environment to obtain maximum reward.
 
