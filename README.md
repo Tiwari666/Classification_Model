@@ -17,7 +17,7 @@ Supervised learning, also known as supervised machine learning, is defined by it
 
 
 
-# 2) Unsupervised machine learning: clustering algorithms (e.g., K Means Clustering Hierarchical Clustering--dendrogram), association rule algorithms (e.g. Apriori) 
+# 2) Unsupervised machine learning: clustering algorithms (e.g., K Means Clustering Hierarchical Clustering--dendrogram), association rule algorithms (e.g. Apriori), Dimensionality reduction
 
 Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets (subsets called clusters). These algorithms discover hidden patterns or data groupings without the need for human intervention. This method’s ability to discover similarities and differences in information make it ideal for exploratory data analysis, cross-selling strategies, customer segmentation, and image and pattern recognition. It’s also used to reduce the number of features in a model through the process of dimensionality reduction. Principal component analysis (PCA) and singular value decomposition (SVD) are two common approaches for this. Other algorithms used in unsupervised learning include neural networks, k-means clustering, and probabilistic clustering methods.
 
@@ -41,8 +41,31 @@ e) Internet Content Classification: Labeling each webpage is an impractical and 
 
 f) Protein Sequence Classification: Since DNA strands are typically very large in size, the rise of Semi-Supervised learning has been imminent in this field.
 
+Please see the following atached diagram to know how the semi-supervised learning algorithms work:
 
 ![image](https://github.com/Tiwari666/Classification_Model/assets/153152895/ad9e3a5c-9a03-45bf-85ce-d8c5671d76d3)
+
+
+# 4) Reinforcement machine learning: e.g., Q-learning (model-free algorithm), SARSA (model-free algorithm), TD learning (model-based algorithm), Monte Carlo method (model-free algorithm)
+
+Reinforcement Learning (RL) is the science of decision making. It is about learning the optimal behavior in an environment to obtain maximum reward.
+
+Reinforcement machine learning is a machine learning model that is similar to supervised learning, but the algorithm isn’t trained using sample data. This model learns as it goes by using trial and error. A sequence of successful outcomes will be reinforced to develop the best recommendation or policy for a given problem.
+
+Example:
+
+Predictive text, text summarization, question answering, and machine translation are all examples of natural language processing (NLP) that uses reinforcement learning. By studying typical language patterns, RL agents can mimic and predict how people speak to each other every day.
+
+
+# What machine-learning algorithms to use?
+
+Choosing the right machine learning algorithm depends on several factors, including, but not limited to: data size, quality and diversity, as well as what answers businesses want to derive from that data. Additional considerations include accuracy, training time, parameters, data points and much more. Therefore, choosing the right algorithm is both a combination of business need, specification, experimentation and time available. Even the most experienced data scientists cannot tell you which algorithm will perform the best before experimenting with others.
+
+# Now, let's talk about the classification algorithm:
+
+
+
+
 
 
 
@@ -65,3 +88,5 @@ Link 1: https://www.ibm.com/topics/machine-learning
 Link2: https://www.sas.com/en_gb/insights/articles/analytics/machine-learning-algorithms.html
 
 Link 3: https://towardsdatascience.com/top-machine-learning-algorithms-for-classification
+
+Link: https://www.quora.com/What-are-some-of-the-well-known-reinforcement-learning-algorithms
