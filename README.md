@@ -27,6 +27,24 @@ Unsupervised learning, also known as unsupervised machine learning, uses machine
 
 Thus, unsupervised learning reveals the underlying pattern in the dataset that are not explicitly presented, which can discover the similarity of data points (clustering algorithms) or uncover hidden relationships of variables (association rule algorithms).
 
+# Examples of unsupervised learning algorithms include:
+
+K-means clustering
+
+Hierarchical clustering
+
+Principal Component Analysis (PCA)
+
+Association rule mining
+
+Gaussian Mixture Models (GMM)
+
+These algorithms are used to find patterns and structures within data without the need for labeled output.
+
+# Difference between Supervised and Unsupervised learning:
+![image](https://github.com/Tiwari666/Classification_Model/assets/153152895/6684de59-4981-40b0-ad6c-1d2d27d92f7d)
+
+
 # 3) Semi-supervised learning: 
 
 Semi-supervised learning offers a good medium between supervised and unsupervised learning. During training, it uses a smaller labeled data set to guide classification and feature extraction from a larger, unlabeled data set. Semi-supervised learning can solve the problem of not having enough labeled data for a supervised learning algorithm. It also helps if it’s too costly to label enough data. 
@@ -67,16 +85,101 @@ Predictive text, text summarization, question answering, and machine translation
 
 Choosing the right machine learning algorithm depends on several factors, including, but not limited to: data size, quality and diversity, as well as what answers businesses want to derive from that data. Additional considerations include accuracy, training time, parameters, data points and much more. Therefore, choosing the right algorithm is both a combination of business need, specification, experimentation and time available. Even the most experienced data scientists cannot tell you which algorithm will perform the best before experimenting with others.
 
+# List of Regressions:
+
+A) Linear Regression
+
+B) Polynomial Regression
+
+C) Ridge Regression
+
+D) LASSO Regression
+
+E) Decision Tree Based Regression
+
+F) Support Vector Regression (SVR)
+
+# Key Metrics for Regression:
+
+We need metrics to evaluate the outcome of a regression model. Therefore, the choice of an algorithm is that it will define which metric will be used to measure the performance. scikit-learn does not implement all performance metrics*
+
+a) Mean Squared Error (MSE) — Average Square Error
+
+b) Root Mean Squared Error (RMSE) — Square Root MSE
+
+c) Mean Absolute Error (MAE) — Average Absolute Error
+
+d) R Squared (R²) — Coefficient of Determination
+
+e) Adjusted R Squared (R²) — R Adjusted
+
+f) Mean Square Percentage Error (MSPE)
+
+g) Mean Absolute Percentage Error (MAPE)
+
+h) Root Mean Squared Logarithmic Error (RMSLE)
+
+
+
 # Now, let's talk about the classification algorithm:
 
 Classification is a natural language processing task that depends on machine learning algorithms.
 
+Classification is a supervised machine learning method where the model tries to predict the correct label of a given input data. In classification, the model is fully trained using the training data, and then it is evaluated on test data before being used to perform prediction on new unseen data.
+
+Classification is used when the target variable is categorical and discrete.
+
+The goal of classification is to categorize input data into one of several predefined classes or labels.
+
+In classification, the output is a label or category, representing a specific class or group that the input belongs to.
+
+Common classification algorithms include logistic regression, decision trees, random forests, support vector machines, and neural networks.
+
+Classification tasks include spam detection, sentiment analysis, image recognition, and medical diagnosis.
+
+In summary, while regression predicts continuous numerical values, classification categorizes data into discrete classes or labels.
+
+# Examples of classification algorithms: 
 
 
 
+# Metrics used for a classification algorithms: 
 
+ For a classification problem, several evaluation metrics can be utilized to assess the performance of a machine learning model. Some commonly used metrics include accuracy, precision, recall, F1-score, and area under the ROC curve (AUC-ROC).
 
+Accuracy: It measures the proportion of correctly classified instances out of the total instances. However, it might not be suitable for imbalanced datasets.
 
+Precision: It indicates the proportion of true positive predictions out of all positive predictions made by the model. It's useful when the cost of false positives is high.
+
+Recall: It measures the proportion of true positive predictions out of all actual positive instances in the dataset. It's important when the cost of false negatives is high.
+
+F1-score: It is the harmonic mean of precision and recall, providing a balance between the two metrics. It's useful when there is an uneven class distribution.
+
+Area under the ROC curve (AUC-ROC): It evaluates the model's ability to discriminate between positive and negative classes across various threshold values. A higher AUC-ROC score indicates better performance.
+
+The choice of evaluation metric depends on the specific characteristics of the dataset and the problem at hand. It's essential to consider the goals and requirements of the classification task to select the most appropriate metric for evaluation.
+
+# ROC curve
+
+The Receiver Operating Characteristic (ROC) curve is a graphical representation used to evaluate the performance of classification models. It plots the true positive rate (sensitivity) against the false positive rate (1 - specificity) at various threshold settings. ROC curves are useful because they provide a comprehensive understanding of a model's performance across different discrimination thresholds, allowing us to assess its trade-offs between sensitivity and specificity. A model with a higher area under the ROC curve (AUC) indicates better overall performance in distinguishing between the positive and negative classes.ROC curves are particularly valuable for comparing and selecting the best-performing model among multiple alternatives and for determining the optimal threshold for a given classification task.
+
+# AUC-ROC
+
+AUC-ROC, or Area Under the Receiver Operating Characteristic Curve, is a performance metric commonly used to evaluate the quality of a binary classification model. It measures the area under the curve plotted by the true positive rate (sensitivity) against the false positive rate (1-specificity) across different threshold values for classification decisions. AUC-ROC provides a single scalar value that represents the model's ability to discriminate between the positive and negative classes, with a higher value indicating better discrimination (a perfect classifier has an AUC-ROC score of 1). It is particularly useful for imbalanced datasets and provides a comprehensive assessment of the model's performance across various decision thresholds.
+
+# confusion matrix
+
+The confusion matrix is a performance evaluation tool used in classification tasks to visualize the performance of a machine learning model. It is a square matrix where rows represent the actual classes and columns represent the predicted classes. Each cell in the matrix represents the count of instances where the actual class (row) matches the predicted class (column). The confusion matrix provides valuable insights into the model's performance by breaking down predictions into four categories:
+
+True Positive (TP): Instances where the model correctly predicts positive classes.
+
+True Negative (TN): Instances where the model correctly predicts negative classes.
+
+False Positive (FP): Instances where the model incorrectly predicts positive classes (Type I error).
+
+False Negative (FN): Instances where the model incorrectly predicts negative classes (Type II error).
+
+With this breakdown, various performance metrics such as accuracy, precision, recall (sensitivity), specificity, and F1-score can be calculated, aiding in assessing the model's effectiveness in classification tasks.
 
 
 
@@ -101,4 +204,7 @@ Link 3: https://towardsdatascience.com/top-machine-learning-algorithms-for-class
 Link: https://www.quora.com/What-are-some-of-the-well-known-reinforcement-learning-algorithms
 
 Link 5: https://monkeylearn.com/blog/classification-algorithms/
+
+Link 6: https://www.v7labs.com/blog/supervised-vs-unsupervised-learning#what-is-semi-supervised-learning
+
 
