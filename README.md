@@ -42,7 +42,8 @@ Gaussian Mixture Models (GMM)
 These algorithms are used to find patterns and structures within data without the need for labeled output.
 
 # Difference between Supervised and Unsupervised learning:
-![image](https://github.com/Tiwari666/Classification_Model/assets/153152895/6684de59-4981-40b0-ad6c-1d2d27d92f7d)
+![image](https://github.com/Tiwari666/Classification_Model/assets/153152895/5a130886-d0d5-4eeb-9ada-95f23f2b8ab3)
+
 
 
 # 3) Semi-supervised learning: 
