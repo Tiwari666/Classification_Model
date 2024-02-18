@@ -87,17 +87,23 @@ Choosing the right machine learning algorithm depends on several factors, includ
 
 # List of Regressions:
 
-A) Linear Regression
+A) Linear Regression : Linear regression is the most common method for supervised learning. We fit a regression line with the data points available. It is easy to interpret, cost-efficient, and is used as a baseline in any business case.
 
-B) Polynomial Regression
+B) Polynomial Regression: 
 
-C) Ridge Regression
+C) Ridge Regression: Ridge regression is an improved version of linear regression. It removes some issues of the OLS (ordinary least squares) methodology. It also imposes a penalty for ranging coefficient values with the alpha parameter. This coefficient plays a vital role in the calculation of the residual sum of squares for ridge regression, making the model robust.
 
-D) LASSO Regression
+D) LASSO Regression: Modern data is often complex with non-linear patterns that cannot be modeled by simple linear models. Polynomial regressions are models where we fit a higher degree curve to the data. It makes the model more flexible and scalable. To implement this in scikit-learn, you have to use the pipeline component. You can define the polynomial degree required in the pipeline.
 
-E) Decision Tree Based Regression
+E) Decision Tree Based Regression: Decision tree regression is a tree-based model where the data is split into subgroups based on homogeneity. we can import this model from the tree module of sklearn.
 
-F) Support Vector Regression (SVR)
+In order to avoid overfitting, make use of the “max_depth” parameter. It decides the maximum depth of the decision tree. If the value is set too high, the model might fit on noises and perform poorly upon a test dataset.
+
+F) Random forest regression: Decision tree models are usually upscaled a level higher by combining multiple models. These are ensemble learning methods. They can be broadly classified into boosting and bagging algorithms.
+
+The base models are weak learners, and by combining multiple weak learners, we get the final, strong learner model. The ‘ensemble’ module has all these functions in sklearn. “N_estimators” is an important parameter that decides the number of decision trees that require training.
+
+G) Support Vector Regression (SVR): SVMs (support vector machines) were initially developed to classify problems, but they have been extended to apply to regression too. These models can be used when we have a higher dimension of features. They also provide different kernel options as per requirements.
 
 # Key Metrics for Regression:
 
@@ -140,6 +146,38 @@ Classification tasks include spam detection, sentiment analysis, image recogniti
 In summary, while regression predicts continuous numerical values, classification categorizes data into discrete classes or labels.
 
 # Examples of classification algorithms: 
+
+A) Binary classification: Logistic Regression , Decision Trees ,Naïve Bayes 
+ Binary classification is when a model can apply only two class labels. A popular use of a binary classification would be in detecting and filtering junk emails. A model can be trained to label incoming emails as either junk or safe, based on learned patterns of what constitutes a spam email. 
+ 
+B) Multiple class classification: Random Forest ,k-Nearest Neighbors, Naive Bayes 
+
+Multiple class classification is when models reference more than the two class labels found in binary classification. Instead, there could be a huge array of possible class labels that could be applied to the object or data. An example would be in facial recognition software, where a model may analyse an image against a huge range of possible class labels to identify the individual. 
+
+
+C) Multiple label classification: Multiple label Gradient Boosting , Multiple label Random Forests 
+
+Multiple label classification is when an object or data point may have more than one class label assigned to it by the machine learning model. In this case the model will usually have multiple outputs. An example could be in image classification which may contain multiple objects. A model can be trained to identify, classify and label a range of subjects in one image. 
+
+i) Logistic regression: This is a linear model, developed from linear regression to address classification issues. It uses the default regularization technique in the algorithm. When we apply this to multiclass classification problems, it uses the One vs Rest strategy.
+
+ii) Support vector classifiers: SVM classifiers are popularly used for classification problems with a high dimension of features. They can transform the feature space into a higher dimension using the kernel function. Multiple kernel options are available including linear, RBF (radial base function), polynomial, and so on. We can also finetune the ‘gamma’ parameter, which is the kernel coefficient.
+
+iii) Naive Bayes classifier
+The gaussian Naive Bayes is a popular classification algorithm. It applies Bayes’ theorem of conditional probability to the case. It assumes that the features are independent of each other, while the targets are dependent on them. 
+
+iv) Decision tree classifier
+This is a tree-based structure, where a dataset is split based on values of various attributes. Finally, the data points with features of similar values are grouped together. Make sure to finetune the maximum depth and minimum leaf split parameters for better results. It also helps to avoid overfitting.
+
+v) Gradient boosting classifier
+Boosting is a method of ensemble learning where multiple decision trees are combined to enhance performance. It is a parallel learning method where multiple trees are trained parallelly and then combined to vote for the final result. We can finetune the hyperparameters like learning rate and number of estimators to achieve optimal training results.
+
+vi) KNN classification
+KNN (K nearest neighbor) is a classification algorithm that groups data points into clusters. The value of K can be chosen as a parameter “n_neighbors”. The algorithms form K clusters and assign each data point to the nearest cluster.
+
+KNN performs multiple iterations where the distance of the points are the centers of the clusters, which are calculated and reassigned optimally.
+
+
 
 
 
@@ -206,5 +244,10 @@ Link: https://www.quora.com/What-are-some-of-the-well-known-reinforcement-learni
 Link 5: https://monkeylearn.com/blog/classification-algorithms/
 
 Link 6: https://www.v7labs.com/blog/supervised-vs-unsupervised-learning#what-is-semi-supervised-learning
+
+Link 7: https://www.seldon.io/supervised-vs-unsupervised-learning-explained
+
+Link 8: https://www.turing.com/kb/scikit-learn-cheatsheet-methods-for-classification-and-regression
+
 
 
